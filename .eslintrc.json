@@ -20,6 +20,7 @@
     "import/no-unresolved": "off",
     "no-shadow": "off",
     "linebreak-style": 0   // <----------
+
   },
   "ignorePatterns": [
     "dist/",
