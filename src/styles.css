@@ -56,11 +56,11 @@
   background-color: rgba(128, 128, 128, 0.345);
 }
 
-.orange {
+.oper-button {
   background-color: rgb(255, 145, 0);
 }
 
-.orange:hover {
+.oper-button:hover {
   background-color: rgba(255, 68, 0, 0.813);
 }
 
