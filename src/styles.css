@@ -23,7 +23,7 @@
   width: 80%;
 }
 
-.display-screen {
+.calculator-display {
   width: 100%;
   border-bottom: 1px solid rgba(180, 179, 179, 0.459);
   display: flex;
@@ -36,7 +36,7 @@
   padding-right: 5px;
 }
 
-.calculator-buttons {
+.calculator-area-buttons {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 50px 50px 50px 50px 50px;

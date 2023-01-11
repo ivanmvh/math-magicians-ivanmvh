@@ -9,8 +9,8 @@ class Calculator extends React.Component {
   render() {
     return (
       <section className="calculator-container">
-        <h3 className="display-screen">0</h3>
-        <div className="calculator-buttons">
+        <h3 className="calculator-display">0</h3>
+        <div className="calculator-area-buttons">
           <button type="button" className="btncalc">AC</button>
           <button type="button" className="btncalc">+/-</button>
           <button type="button" className="btncalc">%</button>
