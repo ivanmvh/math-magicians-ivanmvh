@@ -1,20 +1,16 @@
 import { useState } from 'react';
 import calculate from '../logic/calculate';
 
-class Calculator extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      total: null,
-      next: null,
-      operation: null,
-    };
-    this.handleClick = this.handleClick.bind(this);
-  }
+const Calculator = () => {
+  const [state, setState] = useState({
+    total: null,
+    next: null,
+    operation: null,
+  });
 
-  handleClick(e) {
-    this.setState((state) => calculate(state, e.target.textContent));
-  }
+  const handleClick = (e) => {
+    setState((state) => calculate(state, e.target.textContent));
+  };
 
   render() {
     const { total, next, operation } = this.state;
