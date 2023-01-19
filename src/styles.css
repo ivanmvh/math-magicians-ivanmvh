@@ -16,6 +16,61 @@
   align-items: center;
 }
 
+/**** Here start the <a> styles ****/
+
+a {
+  text-decoration: none;
+  color: black;
+  transition: all 0.5s ease-in-out;
+  font-family: 'Allerta Stencil', sans-serif;
+}
+
+a:hover {
+  font-size: 1.3rem;
+  color: var(--purple);
+}
+
+a:active {
+  font-size: 1.3rem;
+  color: var(--Rich-lilac);
+}
+
+/**** Here start the navBar styles ****/
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  border: 2px solid var(--Toolbox);
+  background-color: #636ec62e;
+  height: 10%;
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+  margin-right: 24px;
+  cursor: pointer;
+}
+
+.navLink {
+  padding: 5px;
+  font-size: 1rem;
+}
+
+.logo {
+  font-size: 1.3rem;
+  margin-left: 24px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: 'Allerta Stencil', sans-serif;
+}
+
+/**** Here start the calculator styles ****/
+
 .calculator-container {
   display: flex;
   flex-direction: column;
@@ -70,4 +125,67 @@
   .calculator-container {
     width: 25%;
   }
+}
+
+/* HOME */
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  font-size: 130%;
+}
+
+.code-authors {
+  display: flex;
+  justify-content: center;
+}
+
+.code-author {
+  text-decoration: none;
+  text-align: center;
+}
+
+.code-author:nth-child(1) {
+  margin-right: 50px;
+}
+
+.code-author:hover {
+  color: var(--orangeButton);
+}
+
+/**** Here start the styles for the quotes page ******/
+
+.quoteContainer {
+  height: 100vh;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote {
+  font-size: 2rem;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.quote:hover {
+  color: var(--Toolbox);
+}
+
+.author {
+  font-size: 1.5rem;
+  font-style: italic;
+  text-align: right;
+  width: 100%;
+  margin-top: 24px;
+}
+
+.author:hover {
+  color: var(--purple);
 }
