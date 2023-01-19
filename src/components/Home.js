@@ -30,10 +30,10 @@ const Home = () => (
         {' '}
         This section is for displaying a quotes.
       </p>
+      <div className="code-authors">
+        <a className="code-author" href="https://linkedin.com/in/ivan-martinez-von-halle">Ivan Martinez von Halle</a>
+      </div>
     </section>
-    <div className="code-authors">
-      <a className="code-author" href="https://linkedin.com/in/ivan-martinez-von-halle">Ivan Martinez von Halle</a>
-    </div>
 
   </>
 );
